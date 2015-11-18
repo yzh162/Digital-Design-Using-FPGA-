@@ -1,0 +1,45 @@
+NET  DVI<0>               LOC="AB8";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<1>               LOC="AC8";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<2>               LOC="AN12";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<3>               LOC="AP12";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<4>               LOC="AA9";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<5>               LOC="AA8";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<6>               LOC="AM13";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<7>               LOC="AN13";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<8>               LOC="AA10";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<9>               LOC="AB10";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<10>              LOC="AP14";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI<11>              LOC="AN14";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+
+NET  DVI_DE               LOC="AE8";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI_H                LOC="AM12";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI_V                LOC="AM11";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+
+NET  DVI_XCLK_N           LOC="AL10";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  DVI_XCLK_P           LOC="AL11";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
+
+
+NET  USER_CLK             LOC="AH15";  # Bank 4, Vcco=3.3V, No DCI
+ 
+
+NET  IIC_SCL_VIDEO        LOC="U27";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  IIC_SDA_VIDEO        LOC="T29";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors
+
+
+NET  DVI_RESET_B          LOC="AK6";   # Bank 18, Vcco=3.3V, No DCI
+NET  GPIO_SW_C			  LOC="AJ6";
+
+
+NET  MOUSE_CLK            LOC="R27";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors      
+NET  MOUSE_DATA           LOC="U26";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors      
+
+NET  PIEZO_SPEAKER        LOC="G30";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors      
+
+
+NET  LCD_FPGA_DB<0>        LOC="T9";    # Bank 12, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  LCD_FPGA_DB<1>        LOC="G7";    # Bank 12, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  LCD_FPGA_DB<2>        LOC="G6";    # Bank 12, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  LCD_FPGA_DB<3>        LOC="T11";   # Bank 12, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  LCD_FPGA_E            LOC="AC9";   # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors      
+NET  LCD_FPGA_RS           LOC="J17";   # Bank 3, Vcco=2.5V, No DCI      
+NET  LCD_FPGA_RW           LOC="AC10";  # Bank 22, Vcco=3.3V, DCI using 49.9 ohm resistors
